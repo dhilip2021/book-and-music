@@ -1,8 +1,61 @@
 *{
-  margin: 0;
+  margin: 10;
+}
+.bg-image-home {
+  background-image: url("./assets/icon/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+}
+.bg-image-music {
+  background-image: url("./assets/icon/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+}
+.bg-image-book {
+  background-image: url("./assets/icon/bg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+}
+.textCenter{
+  text-align: center;
 }
 .title{
   text-align: center;
-  color: blueviolet;
+  color: #fff;
   font-size: 54px;
+  margin: 0%;
+  padding: 0.5%;
+}
+.txt-h4{
+  color: #fff;
+}
+.titleBook{
+  text-align: center;
+  font-size: 54px;
+  color: #0098c1;
+  margin: 0%;
+  padding: 0.5%;
+}
+.icon-temp{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10% 30% 0% 30%;
+}
+.music-division{
+  display: flex;
+  padding: 2% 10% 10% 10%;
+  margin: 0% 1% 0% 0%;
+}
+.box {
+  margin: 10px;
+  background-color: #fff;
+  
+}
+.box p{
+  padding-left: 10px;
+  margin: 2;
 }
