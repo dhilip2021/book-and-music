@@ -36,7 +36,7 @@ function musicList() {
       {musicListData.map((list, index) => (
         <div className="box">
           <img src={list.img} alt="art" />
-          <p>{list.name}</p>
+          <p className="music-title">{list.name}</p>
           <p>created : {list.date}</p>
         </div>
       ))}
