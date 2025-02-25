@@ -40,10 +40,11 @@
   padding: 0.5%;
 }
 .icon-temp{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  padding: 10% 30% 0% 30%;
+      display: flex;
+      justify-content: space-between;
+      padding: 10% 20% 0;
+      text-align: center;
+      /* flex-direction: column; */
 }
 .music-division{
   display: flex;
