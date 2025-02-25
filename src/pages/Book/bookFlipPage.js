@@ -95,10 +95,22 @@ const jsonBook1 = [
 const bookFlipPage = () => {
   return (
     <Grid2>
-      <Box textAlign={"center"} alignItems={"center"}>
-        <Box top={5} textAlign={"center"}>
+      <Box textAlign={"center"}  >
+      <Grid2 item md={9} xs={12} sm={12}>
+      <Box top={5} textAlign={"center"}>
           <div className="flex justify-center items-center h-screen bg-gray-100">
-            <HTMLFlipBook width={600} height={600} className="shadow-lg">
+            <HTMLFlipBook 
+            width={450}
+            height={450}
+            size="stretch"
+            minWidth={300}
+            maxWidth={600}
+            minHeight={400}
+            maxHeight={800}
+            maxShadowOpacity={0.5}
+            showCover={true}
+            mobileScrollSupport={true}
+            className="shadow-lg">
 
 
 
@@ -113,9 +125,14 @@ const bookFlipPage = () => {
             </HTMLFlipBook>
           </div>
         </Box>
-        <Link to={"/book"}>
+    </Grid2>
+    <Grid2>
+    <Link to={"/book"}>
           <Button variant="contained">Back</Button>
         </Link>
+    </Grid2>
+        
+       
       </Box>
     </Grid2>
   );

@@ -2,32 +2,39 @@ import React from "react";
 import AR from "../../assets/images/ar_rahman.jpg";
 import ILAI from "../../assets/images/ilayaraja.jpg";
 import YUVAN from "../../assets/images/yuvan.jpg";
+import SPB from "../../assets/images/spb.jpg";
+import CHITRA from "../../assets/images/chitra.jpg";
 import { Box, Grid2 } from "@mui/material";
 
 const musicListData = [
   {
+    id:1,
     name: "A.R Rahman Songs",
     img: AR,
     date: "22-Sep-2024",
   },
   {
+    id:2,
     name: "Ilayaraja Songs",
     img: ILAI,
     date: "22-Sep-2024",
   },
   {
+    id:3,
     name: "Yuvan Songs",
     img: YUVAN,
     date: "22-Sep-2024",
   },
   {
-    name: "A.R Rahman Songs",
-    img: AR,
+    id:4,
+    name: "S.P.B Songs",
+    img: SPB,
     date: "22-Sep-2024",
   },
   {
-    name: "A.R Rahman Songs",
-    img: AR,
+    id:5,
+    name: "chitra Songs",
+    img: CHITRA,
     date: "22-Sep-2024",
   },
 ];
