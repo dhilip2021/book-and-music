@@ -170,13 +170,21 @@ const bookFlipPage = () => {
             className="shadow-lg">
 
 
-
+             {/* Front Cover */}
+        <div className="page bg-blue-500 text-white flex items-center justify-center text-2xl font-bold border p-5">
+        <h1 style={{color:"#000",marginTop:"150px"}}>Tormented Obsession</h1>
+        <p style={{color:"#d3d3d3"}} >author: Anna Zaires</p>
+        </div>
                 {jsonBook1.map((data,index) => (
                     <div key={index} className="page bg-white flex items-center justify-center text-xl font-bold border p-5">
                     <h1> {data.title}</h1>
                     <p>{data.content}</p>
                   </div>
                 ))}
+                {/* Back Cover */}
+        <div className="page bg-gray-800 text-white flex items-center justify-center text-2xl font-bold border p-5">
+          <h1 style={{color:"#000",marginTop:"150px"}}>Thank You</h1>
+        </div>
               
              
             </HTMLFlipBook>
