@@ -51,6 +51,7 @@
   padding: 2% 10% 10% 10%;
   margin: 0% 1% 0% 0%;
 }
+
 .box {
   margin: 10px;
   background-color: #fff;
@@ -60,6 +61,26 @@
   padding-left: 10px;
   margin: 2;
 }
+.book-box{
+  margin: 10px;
+  background-color: #fff;
+}
+.book-title{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  height: 30px;
+  margin-left: 10px;
+}
+.book-author{
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  height: 10px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
 .music-title{
   font-weight: 600;
   font-size: 14px;
